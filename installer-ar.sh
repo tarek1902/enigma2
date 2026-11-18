@@ -3,7 +3,7 @@
 # ==============================================
 # SCRIPT : DOWNLOAD AND INSTALL opkg-tools #
 # =====================================================================================================================
-# Command: wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer-ar.sh -O - | /bin/sh #
+# Command: wget https://raw.githubusercontent.com/tarek1902/enigma2/main/installer-ar.sh -O - | /bin/sh #
 # =====================================================================================================================
 
 ########################################################################################################################
@@ -19,7 +19,7 @@ MY_IPK="enigma2-ar_2.28_all.ipk"
 ########################################################################################################################
 
 # Decide : which package ?
-MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
+MY_MAIN_URL="https://raw.githubusercontent.com/tarek1902/enigma2/"
 if which dpkg > /dev/null 2>&1; then
 	MY_FILE=$MY_DEB
 	MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_DEB
@@ -33,7 +33,7 @@ echo ''
 echo '************************************************************'
 echo '**                         STARTED                        **'
 echo '************************************************************'
-echo "**                 Uploaded by: Biko_73                   **"
+echo "**                 Uploaded by: tarek_hanfy                   **"
 echo "**  https://www.tunisia-sat.com/forums/threads/4165512/   **"
 echo "************************************************************"
 echo ''
